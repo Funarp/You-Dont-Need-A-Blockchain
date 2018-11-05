@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/You-Dont-Need-A-Blockchain/precache-manifest.b77e4c9300d10b0967906de7bfd9f93e.js"
+  "/You-Dont-Need-A-Blockchain/precache-manifest.12661bfadedcdd36ac8a828e29faa2dc.js"
 );
 
 workbox.clientsClaim();
