@@ -7,5 +7,5 @@ This is an interactive implementation of the NIST Blockchain use case flowchart.
 
 `yarn start`
 ## Reference
-![NIST Blockchain use cases](https://raw.githubusercontent.com/BruceMacD/You-Dont-Need-A-Blockchain/master/images/NIST-Blockchain-Flowchart.png "NIST Blockchain use cases")  
+![NIST Blockchain use cases](https://raw.githubusercontent.com/BruceMacD/You-Dont-Need-A-Blockchain/source/images/NIST-Blockchain-Flowchart.png)  
 [NIST: Blockchain Technology Overview [pdf]](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf)
