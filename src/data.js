@@ -37,7 +37,7 @@ module.exports = {
     ]
   },
   3: {
-    question: `Will data records ever need to be updated or deleted once they are written?`,
+    question: `Data records, once written, are never updated or deleted?`,
     fact: `Blockchains do not allow for modification of historical data. Consider a database.`,
     choices: [
       {
