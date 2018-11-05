@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  @media screen and (max-width: 990px){
+    font-size: 3.5rem;
+  }
+}
+
+a {
+  color: #0ebeff;
+  &:not(:hover) {
+    text-decoration: none;
+  }
+}
+
+.site {
+  min-height: 100vh;
+}
+
+.f {
+  display: flex;
+}
+.jcc {
+  justify-content: center;
+}
+.aic {
+  align-items: center;
+}
+
+.mha {
+  margin: 0 auto;
+}
+
+.px2 {
+  padding: 2rem;
+}
+
+.step__wrapper {
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translateY(20px);
+  opacity: 0;
+  &.is-active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.button {
+  transiton: all 0.25s;
+  border: 1px solid black;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 1.1rem 2rem 1rem;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+
+  @media screen and (max-width: 990px){
+    border: 3px solid black;
+    padding: 1.5rem 4rem 1.5rem;
+  }
+}
+
+.container--q {
+  max-width: 400px;
+}
+
+.quiz__options {
+  > div {
+    transition: all 0.25s;
+    padding: 1rem 1.3rem;
+    cursor: pointer;
+    border: 2px solid gray;
+    margin: 4px;
+    &:hover {
+      background-color: gray;
+      color: white;
+    }
+    &.cg {
+      background-color: green;
+      color: white;
+      border-color: green;
+    }
+    &.cr {
+      background-color: red;
+      color: white;
+      border-color: red;
+    }
+    &.cw {
+      opacity: 0.5;
+    }
+
+    @media screen and (max-width: 990px){
+      border: 3px solid black;
+      margin-left: 0.2em;
+      padding: 1.5rem 1.5rem 1.5rem;
+    }
+  }
+}
