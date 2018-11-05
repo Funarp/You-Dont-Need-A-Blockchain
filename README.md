@@ -1,5 +1,5 @@
 # You Don't Need a Blockchain
-[You Don't Need a Blockchain](http://www.youdontneedablockchain.com)
+[You Don't Need a Blockchain](https://brucemacd.github.io/You-Dont-Need-A-Blockchain/)
 ## Overview
 This is an interactive implementation of the NIST Blockchain use case flowchart. Blockchains are an exciting new concept to create digital scarcity and provide a shared consistent data store. However, it is important to know when you should actually use one.
 ## Running
