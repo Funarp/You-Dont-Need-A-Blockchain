@@ -68,7 +68,7 @@ export default class QuizSingle extends Component {
                 })}
               >
                 <div>
-                  <h3 className="cw">{selected ? `` : `You Don't Need a Blockchain`}</h3>
+                  <h3 className="cw">{selected ? `` : `你不需要区块链`}</h3>
                   <div
                     className="cw"
                     dangerouslySetInnerHTML={{ __html: fact }}

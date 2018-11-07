@@ -181,12 +181,12 @@ class QuizStart extends React.Component {
   render() {
     return (
       <div>
-        <h1>You Don't Need a Blockchain</h1>
+        <h1>你不需要区块链</h1>
         <Button
           classes={`f jcb mt1 regular bold cw`}
           clickHandle={() => this.props.next()}
         >
-          I think I need a Blockchain
+          我需要区块链
         </Button>
       </div>
     );
@@ -197,7 +197,7 @@ class QuizEnd extends React.Component {
   render() {
     return (
       <div className="mha container--q">
-        <h4>You Might Need a Blockchain</h4>
+        <h4>你也许需要区块链</h4>
       </div>
     );
   }

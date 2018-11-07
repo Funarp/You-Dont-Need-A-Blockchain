@@ -1,7 +1,7 @@
 module.exports = {
   1: {
-    question: `Do you need a shared consistent data store?`,
-    fact: `If you don't need a consistent data store, you don't need a Blockchain. Consider a spreadsheet.`,
+    question: `你需要共享一个一致的数据存储么?`,
+    fact: `如果你不需要一致的数据存储, 你不需要区块链. 考虑一下电子表格吧.`,
     choices: [
       {
         id: Math.random(),
@@ -16,8 +16,8 @@ module.exports = {
     ]
   },
   2: {
-    question: `Does more than one entity need to contribute data?`,
-    fact: `Blockchains are usually used when data comes from multiple entities. Consider using a database.`,
+    question: `是否有多个实体需要提供数据？`,
+    fact: `区块链通常在数据来自多个实体的时候被使用. 考虑一下数据库吧.`,
     choices: [
       {
         id: Math.random(),
@@ -31,14 +31,14 @@ module.exports = {
       },
       {
         id: Math.random(),
-        item: "NO... BUT I NEED AUDITING",
+        item: "NO... 但是我需要审查.",
         answer: true
       }
     ]
   },
   3: {
-    question: `Data records, once written, are never updated or deleted?`,
-    fact: `Blockchains do not allow for modification of historical data, they are strongly auditable. Consider a database.`,
+    question: `数据记录, 一旦写入，再也不进行删改?`,
+    fact: `区块链不允许修改历史数据, 它们具有很强的可审计性. 考虑一下数据库吧.`,
     choices: [
       {
         id: Math.random(),
@@ -53,8 +53,8 @@ module.exports = {
     ]
   },
   4: {
-    question: `Sensitive identifiers will not be written to the data store?`,
-    fact: `You should not write sensitive information to a Blockchain that requires long term confidentiality. Try an encrypted database.`,
+    question: `敏感信息将不会被写入数据存储?`,
+    fact: `你不应该把需要长期保密的敏感信息写入区块链. 试试加密数据库.`,
     choices: [
       {
         id: Math.random(),
@@ -69,8 +69,8 @@ module.exports = {
     ]
   },
   5: {
-    question: `Are entities with write access having a hard time deciding who should be in control of the data store?`,
-    fact: `If there are no trust issues over who runs the data store a traditional database should suffice.`,
+    question: `具有写权限的实体是否难以决定数据存储的控制权?`,
+    fact: `如果在何方运行数据存储上无信任问题传统数据库会更高效.`,
     choices: [
       {
         id: Math.random(),
@@ -85,8 +85,8 @@ module.exports = {
     ]
   },
   6: {
-    question: `Do you want a tamperproof log of all writes to the data store?`,
-    fact: `If you don't need to audit what happened and when it happened a database will suffice.`,
+    question: `你是否需要对所有写入的数据进行放篡改记录?`,
+    fact: `如果你不需要审核何时发生何事，数据库就足够了`,
     choices: [
       {
         id: Math.random(),
